@@ -1,0 +1,23 @@
+- name: Git
+  weight: 4
+
+- name: GitHub
+  weight: 4
+
+- name: Jupyter
+  weight: 4
+
+- name: Linux
+  weight: 3
+
+- name: VS Code
+  weight: 3
+
+- name: LaTeX
+  weight: 3
+
+- name: Financial Data Analysis
+  weight: 4
+
+- name: Benchmark Design
+  weight: 5

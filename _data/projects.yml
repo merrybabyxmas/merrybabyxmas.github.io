@@ -1,0 +1,47 @@
+- name: "The Algebra of Storytelling"
+  descr: "ACM Multimedia 2026. A state-transition benchmark for spanning multi-entity, multi-shot narratives. The project introduces MEMS-1K and STEM to evaluate whether entities enter, exit, and remain present correctly across generated video shots."
+  demo: https://github.com/merrybabyxmas/The-Algebra-of-Storytelling
+  tags:
+    - tag: ACM MM 2026
+    - tag: Video Generation
+    - tag: Benchmark
+    - tag: Evaluation
+
+- name: "Retrieve the Right Signal"
+  descr: "CIKM 2026. A decomposition-guided retrieval-augmented forecasting framework for financial markets, designed to retrieve component-specific historical signals for financial time-series prediction."
+  tags:
+    - tag: CIKM 2026
+    - tag: Forecasting
+    - tag: Retrieval
+    - tag: Financial Markets
+
+- name: "SPAN / STEM - MEMS-1K Benchmark"
+  descr: "Official benchmark and evaluation code for multi-entity, multi-shot narrative video generation. Includes scenario data, metrics, detector interfaces, CLI tools, demos, and tests for reproducible evaluation."
+  demo: https://merrybabyxmas.github.io/The-Algebra-of-Storytelling/
+  tags:
+    - tag: Python
+    - tag: Multimodal AI
+    - tag: STEM
+    - tag: MEMS-1K
+
+- name: "Mind-cast"
+  descr: "AI-based population mental-health monitoring research initiative at Sogang University, focused on forecasting mental-health and suicide-risk signals using machine learning and time-series analysis."
+  tags:
+    - tag: Mental Health AI
+    - tag: Time Series
+    - tag: Machine Learning
+
+- name: "Lecture STT and Summarization System"
+  descr: "An AI-driven lecture audio-to-text transcription and automated summarization service developed for ShidaeInjae, covering applied speech recognition and educational content summarization workflows."
+  tags:
+    - tag: STT
+    - tag: Deep Learning
+    - tag: Summarization
+
+- name: "Samsung Securities Digital/IT Partnership Project"
+  descr: "Excellence Award project: an sLLM-based investment information retrieval and question-answering service using financial PDF processing, Korean and multilingual QA, and retrieval workflows."
+  tags:
+    - tag: sLLM
+    - tag: QA
+    - tag: Finance
+    - tag: Award
