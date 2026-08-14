@@ -1,0 +1,299 @@
+@import url("//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Gelasio|Nanum+Gothic|Noto+Sans|Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Gelasio", "Nanum Gothic", serif;
+  color: #2c3e50;
+  background: #fff;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.content {
+  flex: 1 1 auto;
+  padding: 0 30px;
+}
+
+.sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 0 0 240px;
+  padding: 15px;
+  z-index: 1;
+  background-color: #222;
+  color: #fff;
+}
+
+.sidebar-item {
+  display: block;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.sidebar-brand > a {
+  font-size: 300%;
+  font-family: "Gelasio", serif;
+  color: #fff;
+  line-height: 1;
+}
+
+.lead {
+  font-size: 115%;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+.sidebar-header {
+  margin-bottom: 50px;
+}
+
+.sidebar-nav {
+  margin-top: 20px;
+}
+
+.nav-title {
+  font-size: 100%;
+  font-family: "Noto Sans", sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid gray;
+  margin-bottom: 5px;
+}
+
+a.nav-item {
+  font-size: 112%;
+  font-family: "Noto Sans", sans-serif;
+  text-transform: capitalize;
+  color: #aaa;
+}
+
+a.nav-item:hover {
+  color: #ddd;
+}
+
+.badge {
+  font-size: 70%;
+}
+
+.badge::before {
+  content: "(";
+}
+
+.badge::after {
+  content: ")";
+}
+
+.sidebar-footer {
+  margin-top: 80px;
+  font-size: 0.8em;
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.7;
+}
+
+.sidebar-footer a {
+  color: #ccc;
+}
+
+article {
+  padding: 0 5% 0;
+  font-size: 17px;
+  margin-bottom: 100px;
+  line-height: 1.9;
+  max-width: 1080px;
+}
+
+article img {
+  max-width: 100%;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+}
+
+article h1,
+article h2,
+article h3,
+article h4 {
+  font-family: "Roboto", "Nanum Gothic", sans-serif;
+  color: #333;
+  margin-bottom: 0;
+}
+
+header.post-header {
+  padding: 50px 0 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+header.home {
+  text-align: left;
+}
+
+.post-title {
+  font-size: 2.1em;
+  color: #111;
+  font-weight: bold;
+  font-family: "Roboto", "Nanum Gothic", sans-serif;
+}
+
+.subtitle {
+  margin-top: 0.4rem;
+  color: #555;
+  font-family: "Noto Sans", "Nanum Gothic", sans-serif;
+  line-height: 1.5;
+}
+
+.section {
+  margin: 44px 0 56px;
+}
+
+.section h2 {
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.entry {
+  margin: 24px 0;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #eee;
+}
+
+.entry:last-child {
+  border-bottom: 0;
+}
+
+.entry h3 {
+  font-size: 1.12em;
+  line-height: 1.45;
+  margin-top: 0;
+}
+
+.venue,
+.meta-line {
+  color: #666;
+  font-size: 0.94em;
+  font-family: "Noto Sans", "Nanum Gothic", sans-serif;
+}
+
+.media-entry {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 22px;
+  align-items: start;
+}
+
+.thumb {
+  width: 260px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  background: #f7f7f7;
+}
+
+.thumb-link {
+  display: block;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline li {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 18px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.timeline span {
+  color: #555;
+  font-size: 0.88em;
+  font-family: "Noto Sans", "Nanum Gothic", sans-serif;
+}
+
+@media (max-width: 720px) {
+  article {
+    font-size: 0.95em;
+    line-height: 1.6;
+    padding: 0 20px;
+  }
+
+  .content {
+    padding: 0;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    font-size: 0.85em;
+    flex: 0 0 auto;
+    flex-flow: row wrap;
+    height: auto;
+    gap: 12px;
+  }
+
+  .sidebar-header {
+    margin-bottom: 0;
+    flex: 1 0 100%;
+  }
+
+  .sidebar-nav {
+    margin: 0;
+    flex: 1 1 180px;
+  }
+
+  .sidebar-footer {
+    flex: 1 0 100%;
+    margin-top: 0;
+  }
+
+  .media-entry {
+    grid-template-columns: 1fr;
+  }
+
+  .thumb {
+    width: 100%;
+  }
+
+  .timeline li {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
