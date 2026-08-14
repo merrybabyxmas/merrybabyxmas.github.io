@@ -177,6 +177,16 @@ header.home {
   margin: 44px 0 56px;
 }
 
+.profile-photo {
+  display: block;
+  width: 100%;
+  max-height: 420px;
+  margin-bottom: 32px;
+  object-fit: cover;
+  object-position: center 38%;
+  border: 1px solid #ddd;
+}
+
 .section h2 {
   border-bottom: 1px solid #d8d8d8;
   padding-bottom: 4px;
