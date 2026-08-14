@@ -217,6 +217,17 @@ header.home {
   font-family: "Noto Sans", "Nanum Gothic", sans-serif;
 }
 
+.links-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.links-row span {
+  color: #aaa;
+}
+
 .media-entry {
   display: grid;
   grid-template-columns: 260px minmax(0, 1fr);
