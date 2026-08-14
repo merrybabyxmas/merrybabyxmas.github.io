@@ -179,9 +179,9 @@ header.home {
 
 .profile-photo {
   display: block;
-  width: 100%;
+  width: 60%;
   max-height: 420px;
-  margin-bottom: 32px;
+  margin: 0 auto 32px;
   object-fit: cover;
   object-position: center 38%;
   border: 1px solid #ddd;
@@ -299,6 +299,10 @@ header.home {
   }
 
   .thumb {
+    width: 100%;
+  }
+
+  .profile-photo {
     width: 100%;
   }
 
